@@ -62,6 +62,6 @@ npm run start
 - eslint-config-node
 - eslint-config-airbnb
 
-## Autores
+## Autor
 
 - **Felipe Vianna** - [Github](https://github.com/felipesvianna)
