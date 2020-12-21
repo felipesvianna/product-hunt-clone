@@ -1,30 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Product Hunt Clone
 
-## Getting Started
+> Clone do sistema do site [Product Hunt](https://www.producthunt.com/) utilizando o framework [NextJS](https://nextjs.org/) e [Firebase](https://firebase.google.com/).
 
-First, run the development server:
+Clone do site Product Hunt para fins didáticos e referência. O sistema contém autenticação de usuário, CRUD e busca em base de dados
+
+## Pré-requisitos
+
+Ter uma instância do [Firebase](https://firebase.google.com/) configurada e a apiKey inserida em components/firebase/config.js
+
+## Instalação
+
+```bash
+git clone https://github.com/felipesvianna/product-hunt-clone
+npm install
+```
+
+## Utilização
+
+Ambiente de desenvolvimento
 
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ambiente de produção
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+npm run build
+npm run start
+```
 
-## Learn More
+## Pacotes NodeJS utilizados
 
-To learn more about Next.js, take a look at the following resources:
+- next
+- firebase
+- firebase-admin
+- prop-types
+- react
+- react-dom
+- react-firebase-file-uploader
+- @emotion/core
+- @emotion/styled
+- @emotion/babel-preset-css-prop
+- babel-plugin-emotion
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Padrões de Desenvolvimento
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Padronização de código
 
-## Deploy on Vercel
+- [Airbnb JavaScript Style](https://github.com/airbnb/javascript)
+- [Airbnb React/JSX Style Guide](https://github.com/airbnb/javascript/tree/master/react)
+- [ESLint](https://eslint.org/docs/rules/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Pacotes de Linting
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- eslint
+- prettier
+- eslint-plugin-prettier
+- eslint-config-prettier
+- eslint-plugin-node
+- eslint-config-node
+- eslint-config-airbnb
