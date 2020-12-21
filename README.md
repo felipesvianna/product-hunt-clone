@@ -6,7 +6,7 @@ Clone do site Product Hunt para fins didáticos e referência. O sistema contém
 
 ## Pré-requisitos
 
-Ter uma instância do [Firebase](https://firebase.google.com/) configurada e a apiKey inserida em components/firebase/config.js
+Ter uma instância do [Firebase](https://firebase.google.com/) configurada e a apiKey inserida em firebase/config.js
 
 ## Instalação
 
