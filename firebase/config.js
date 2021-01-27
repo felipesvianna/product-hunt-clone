@@ -1,7 +1,7 @@
 // Configuracao Firebase
 
 export default {
-  apiKey: "AIzaSyCsiO-MBevo6ELXyshIPH4a6ZhW8f3S0f4",
+  apiKey: "",// Insira aqui a chave API disponibilizada no seu Firebase
   authDomain: "product-hunt-eb5c7.firebaseapp.com",
   databaseURL: "https://product-hunt-eb5c7.firebaseio.com",
   projectId: "product-hunt-eb5c7",
