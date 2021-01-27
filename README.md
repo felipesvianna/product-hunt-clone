@@ -4,6 +4,10 @@
 
 Clone do site Product Hunt para fins didáticos e referência. O sistema contém autenticação de usuário, CRUD e busca em base de dados
 
+![Screenshot](docs/screen1.png)
+![Screenshot](docs/screen2.png)
+![Screenshot](docs/screen3.png)
+
 ## Pré-requisitos
 
 Ter uma instância do [Firebase](https://firebase.google.com/) configurada e a apiKey inserida em firebase/config.js
